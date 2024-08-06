@@ -17,9 +17,9 @@ def generate_response(input):
 # Use logging in other parts as necessary
 
 bot = ChatBot()
-st.set_page_config(page_title="Datasheet Analysis")
+st.set_page_config(page_title="ElectroInsight Bot")
 with st.sidebar:
-    st.title('Datasheet Analysis Chatbot')
+    st.title('ElectroInsight Chatbot')
 
 
 
