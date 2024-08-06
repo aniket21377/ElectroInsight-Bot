@@ -12,7 +12,7 @@ class ChatBot:
     load_dotenv()
 
     # Initialize variables
-    docs_folder = "C:/Users/HP/Desktop/ChatBot/docs"
+    docs_folder =os.path.join(os.path.dirname(__file__), 'docs')
     chunk_size = 100000
     chunk_overlap = 4
     api_key = "6a34859c-5085-406c-9973-55d6c8c22ad9"
