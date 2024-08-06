@@ -25,7 +25,7 @@ with st.sidebar:
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
-    st.session_state.messages = [{"role": "assistant", "content": "Welcome, let's unveil your future"}]
+    st.session_state.messages = [{"role": "assistant", "content": "Welcome to ElectroInsight! How can I assist you in your electronics journey today?"}]
 
 # Display chat messages
 for message in st.session_state.messages:
